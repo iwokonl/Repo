@@ -32,7 +32,7 @@
 # print((1/2)**g)
 # print(math.pow(1/2,a))
 
-a=5
-b=3
-c=5*3
-print("Wynik dzielenia %(z1)d - %(z2)d = %(z3)d" %{'z1':a, 'z2':b, 'z3':c})
+# a=5
+# b=3
+# c=5*3
+# print("Wynik dzielenia %(z1)d - %(z2)d = %(z3)d" %{'z1':a, 'z2':b, 'z3':c})
