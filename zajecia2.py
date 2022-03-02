@@ -1,5 +1,5 @@
-a = 3
-b = 7
+# a = 3
+# b = 7
 # if a > b:
 #     print('liczba a jest większa od b')
 # elif b > a:
@@ -25,3 +25,11 @@ b = 7
 # else:
 #     print("podany warunek nie zachodzi")
 
+# for a in range(0,7,1):
+#     print(a)
+
+lista = ['cos', 5, 4, 6.5]
+for a in lista:
+    print(a)
+else:
+    print("Wyświetlono wszystkie elementy z lista")
