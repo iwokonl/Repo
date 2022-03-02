@@ -28,8 +28,10 @@
 # for a in range(0,7,1):
 #     print(a)
 
-lista = ['cos', 5, 4, 6.5]
-for a in lista:
-    print(a)
-else:
-    print("Wyświetlono wszystkie elementy z lista")
+# lista = ['cos', 5, 4, 6.5]
+# for a in lista:
+#     print(a)
+# else:
+#     print("Wyświetlono wszystkie elementy z lista")
+
+
