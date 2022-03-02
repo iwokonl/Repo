@@ -69,3 +69,12 @@
 #     print("Nie dziel przez zero")
 # except ValueError:
 #     print("Wpisz liczbę całkowitą")
+
+my_dict = {'name': 'Iwo', 'age': 21, 1:2}
+print(my_dict)
+my_dict["XD"] = "XD"
+my_dict["height"] = [4]
+my_dict['height'].append(180)
+my_dict.insert(13)
+print(my_dict)
+
