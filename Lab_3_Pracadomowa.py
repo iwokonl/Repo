@@ -1,44 +1,60 @@
-#Zad1
-import math
-# a = [1-x for x in range(1,11)]
-# print(a)
-# b = [pow(4, x) for x in range(0,8)]
-# print(b)
-# c = [x for x in b if x % 2==0]
-# print(c)
+#Zad 1 .append()
+import random
+
+listaA = []
+for x in range (1,11):
+    listaA.append(1-x)
+#print(listaA)
+
+ListaB = []
+for x in range (0,7):
+    ListaB.append(pow(4,x))
+#print(ListaB)
+
+ListaC= []
+for x in ListaB:
+    if (x%2==0):
+        ListaC.append(x)
+#print(ListaC)
 #Zad2
-# import random
-# liczby = [random.randrange(100) for x in range(10)]
-# lista = [x for x in liczby if x%2==0]
-# print(lista)
-#Zad3
-# slownik = {"chleb":"sztuka", "ziemniaki":"kilogram", "mleko":"litr"}
-# print(slownik)
-# slownik2 = {value: key for key, value in slownik.items()}
-# print(slownik2)
-#Zad4
-# a = input()
-# b = input()
-# c = input()
-# if ((a+b>c) and (a+c>b) and (b+c>a)):
-#     if ((a*a+b*b==c*c) or (a*a+c*c==b*b) or (b*b+c*c==b*b)):
-#         print("Wtedy trójkąt jest prostokątny")
-#     else:
-#         print("Wtedy trójkąt nie jest prostokątny")
-# else:
-#     print("Nie da się zrobić takiego trójkąta")
-#Zad5
-# a = input()
-# b = input()
-# h = input()
-# pole = ((int(a)+int(b))*int(h)/2)
-# print(pole)
-#Zad6
-import math
-# def funkcja (a, b, ile):
-#     ciąg = []
-#Zad 10
-# import random
-# liczby = [random.randrange(100) for x in range(0,100)]
-# lista = [x for x in liczby if x%4==0]
-# print(lista)
+listaD = []
+for x in range(0,10):
+    listaD.append(random.randint(0,100))
+#print(listaD)
+listaD2 = []
+for x in listaD:
+    if (x % 2 ==0):
+        listaD2.append(x)
+#print(listaD2)
+
+#zadanie3
+produkty={'ser':"Kg", "Żelki":"Szt","Cola":"Szt"}
+print(produkty)
+lprodukty={key:value for key, value in produkty.items() if value=="Szt"}
+print(lprodukty)
+
+#zadanie4
+def TrojProstokatny(a, b, c):
+    if pow(a, 2)+pow(b, 2) == pow(c, 2):
+        return 'tak'
+    else:
+        return 'Nie'
+#zad5
+def PoleTrapez(a=2,b=3,h=2):
+    pole = ((a+b)*h/2)
+    return pole
+print(PoleTrapez())
+#zad 6
+def ciag(a =1,b =4, ile = 10):
+    for x in range (ile):
+        a = a * b
+    return a
+print(ciag())
+#Zad 7
+def ciag2(*liczba):
+    z = 2
+    for x in liczba:
+        z = z * x
+    return z
+
+print(ciag2(1,2))
