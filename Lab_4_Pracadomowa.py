@@ -41,8 +41,8 @@ class NaZakupy:
 
 
 
-start = NaZakupy("Kurczak",10,"kg",18)
+start = NaZakupy("Knur",200,"kg",0.5)
 print("Produkt to: " + start.wyświetl_produkt())
 print(start.ile_produktu())
-print(start.ile_kosztuje())
+print(str(int(start.ile_kosztuje())) + " złotych")
 
