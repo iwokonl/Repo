@@ -5,9 +5,9 @@ import numpy as np
 import math
 import seaborn as sns
 
-plt.plot((np.arange(1,20,0.1)),(np.sin(np.arange(1,20,0.1))))
-plt.plot((np.arange(1,20,0.1)),(np.cos(np.arange(1,20,0.1))))
-plt.xticks(np.arange(1,20,2))
+plt.plot((np.arange(-20,20,0.1)),(np.sin(np.arange(-20,20,0.1))))
+plt.plot((np.arange(-20,20,0.1)),(np.cos(np.arange(-20,20,0.1))))
+plt.xticks(np.arange(-20,20,10))
 plt.legend(labels=['cos', 'sin'],loc="best")
 plt.show()
 
