@@ -47,3 +47,4 @@ plt.show()
 # # palette='muted')
 # # plot.fig.set_size_inches(10, 10)
 # # plt.show()
+# plt.figtext(0.02, 0.95, '166309', size=12, color='k') komenda na text 
